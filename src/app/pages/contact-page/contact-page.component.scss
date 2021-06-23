@@ -1,0 +1,16 @@
+.contact-page {
+    min-height: 85vh;
+    .a-add-contact {
+        position: fixed;
+        bottom: 20px;
+        right: 20%;
+        text-decoration: none;
+        color: whitesmoke;
+        &:visited {
+            color: whitesmoke;                
+        }
+        &:hover {
+            text-decoration: underline; 
+        }
+    }
+}

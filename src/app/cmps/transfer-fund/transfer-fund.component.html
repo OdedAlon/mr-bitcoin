@@ -1,0 +1,7 @@
+<div class="transfer-fund">
+    <form (ngSubmit)="onTransferCoins.emit(amount)">
+        <label for="amount">Transfer coins to <span>{{contact.name}}</span></label>
+        <input id="amount" type="text" [(ngModel)]="amount" name="amount" placeholder="Amount:">
+        <button>Transfer</button>
+    </form>
+</div>
