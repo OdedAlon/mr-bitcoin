@@ -1,8 +1,0 @@
-<div *ngIf="user" class="home-page">
-    <h2>Hello {{loggedinUser.name}}!</h2>
-    <p><img src="../../../assets/img/coins.png">
-        Coins: {{loggedinUser.coins}}</p>
-    <p><img src="../../../assets/img/bitcoin.png">
-        Rate: {{bitcoinRate$|async}}</p>
-    <moves-list-home [loggedinUser]="loggedinUser"></moves-list-home>
-</div>
